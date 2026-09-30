@@ -1,0 +1,8 @@
+PÁGINA PARA TI
+
+1. Abre el archivo index.html con Google Chrome, Edge o Safari.
+2. Para compartirla, envía la carpeta completa o el archivo ZIP sin separar los archivos.
+3. La cuenta regresiva termina el 1 de diciembre y se ajusta automáticamente al año actual.
+4. La respuesta a la invitación no se envía por internet. Si ella elige “Sí”, puede copiar el mensaje y mandártelo por el medio que prefiera.
+
+La página funciona sin instalar programas. Las tipografías especiales requieren conexión a internet; todo lo demás funciona localmente.

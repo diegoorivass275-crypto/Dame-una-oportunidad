@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#2d0715">
+  <title>Para ti, con todo mi corazón</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="hero" id="inicio">
+    <div class="hero-photo" id="heroPhoto"></div>
+    <div class="hero-shade"></div>
+    <nav><a href="#inicio" class="brand">Tú + Yo</a><button class="sound" id="soundBtn" aria-label="Activar ambiente">♫</button></nav>
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Una página que solo podía ser para ti</p>
+      <h1>Hay historias que<br><em>merecen otra página.</em></h1>
+      <p>No hice esto para cambiar lo que sientes, sino para decirte con calma lo importante que sigues siendo para mí.</p>
+      <a class="primary" href="#historia">Abrir nuestro recuerdo <span>↓</span></a>
+    </div>
+    <div class="scroll-note">Desliza para comenzar</div>
+  </header>
+
+  <main>
+    <section class="intro section reveal" id="historia">
+      <span class="section-number">01</span>
+      <div>
+        <p class="eyebrow dark">Lo que guardo</p>
+        <h2>Tú y yo fuimos muchos instantes que todavía me hacen sonreír.</h2>
+        <p class="lead">No todo cabe en palabras. A veces una foto, una risa o un lugar dicen mucho más. Gracias por cada momento y por la versión de mí que conociste.</p>
+      </div>
+    </section>
+
+    <section class="story-grid section">
+      <article class="photo-card tall reveal"><img src="assets/foto-4.jpg" alt="Un recuerdo juntos"><span>Donde todo se sentía más bonito</span></article>
+      <article class="quote-card reveal"><p>“Si pudiera volver a elegir un recuerdo, elegiría cualquiera en el que estés tú.”</p><small>— Con cariño, siempre</small></article>
+      <article class="photo-card reveal"><img src="assets/foto-16.jpg" alt="Un momento especial"><span>Las risas que sí se quedan</span></article>
+      <article class="photo-card wide reveal"><img src="assets/foto-2.jpg" alt="Nosotros"><span>Dos personas, una historia inolvidable</span></article>
+    </section>
+
+    <section class="reasons section" id="razones">
+      <div class="section-title reveal"><span class="section-number">02</span><div><p class="eyebrow dark">Pequeñas verdades</p><h2>Cosas que nunca quiero olvidar de ti</h2></div></div>
+      <div class="reason-list">
+        <button class="reason reveal"><span>01</span><strong>Tu forma de hacer especial un día normal</strong><i>+</i><p>Contigo, hasta los planes sencillos se convertían en recuerdos.</p></button>
+        <button class="reason reveal"><span>02</span><strong>Tu sonrisa cuando eres tú de verdad</strong><i>+</i><p>De esas sonrisas que iluminan todo sin siquiera intentarlo.</p></button>
+        <button class="reason reveal"><span>03</span><strong>Todo lo que aprendí a tu lado</strong><i>+</i><p>Amar también es crecer, agradecer y aprender a cuidar mejor.</p></button>
+        <button class="reason reveal"><span>04</span><strong>La paz de sentir que estaba en casa</strong><i>+</i><p>Hay personas que son un lugar; tú fuiste uno muy bonito para mí.</p></button>
+      </div>
+    </section>
+
+    <section class="gallery" aria-label="Galería de recuerdos">
+      <div class="gallery-heading section reveal"><p class="eyebrow">Nuestros capítulos</p><h2>20 recuerdos.<br>Una sola historia.</h2><p>Toca una foto para verla completa.</p></div>
+      <div class="gallery-track" id="galleryTrack"></div>
+      <div class="gallery-controls"><button id="prevPhoto" aria-label="Anterior">←</button><span id="galleryCount">01 / 20</span><button id="nextPhoto" aria-label="Siguiente">→</button></div>
+    </section>
+
+    <section class="countdown section reveal" id="diciembre">
+      <div class="countdown-copy"><span class="section-number">03</span><p class="eyebrow dark">Un día a la vez</p><h2>¿Le damos una oportunidad a diciembre?</h2><p>No quiero adelantar el tiempo, solo tener algo bonito que esperar. Este contador termina cuando comienza diciembre.</p></div>
+      <div class="clock" aria-label="Cuenta regresiva al primero de diciembre">
+        <div><strong id="days">00</strong><span>días</span></div><b>:</b>
+        <div><strong id="hours">00</strong><span>horas</span></div><b>:</b>
+        <div><strong id="minutes">00</strong><span>min</span></div><b>:</b>
+        <div><strong id="seconds">00</strong><span>seg</span></div>
+      </div>
+      <button class="time-button" id="timeButton">Haz que diciembre se sienta más cerca ✦</button>
+      <p class="time-message" id="timeMessage"></p>
+    </section>
+
+    <section class="letter section reveal">
+      <div class="letter-paper">
+        <p class="eyebrow dark">Lo más importante</p>
+        <h2>Una carta para ti</h2>
+        <p>No sé qué vaya a pasar después de hoy, pero sí sé que lo nuestro significó mucho para mí. Te extraño sin querer borrar el pasado y te pienso sin querer presionar tu presente.</p>
+        <p>Si alguna vez volvemos a coincidir, me gustaría hacerlo desde un lugar más sincero, más tranquilo y más bonito. No prometo perfección; prometo intención, escucha y respeto.</p>
+        <p>Y si tu respuesta es distinta a la que deseo, también la voy a respetar. Porque quererte bien incluye respetar lo que tú necesitas.</p>
+        <div class="signature">Con todo mi corazón,<br><em>alguien que aún te recuerda bonito.</em></div>
+      </div>
+    </section>
+
+    <section class="invitation section" id="invitacion">
+      <div class="invite-card reveal">
+        <p class="eyebrow">Sin presión. Solo una pregunta sincera.</p>
+        <h2>¿Aceptarías salir conmigo una vez más?</h2>
+        <p>Un café, una comida o una caminata. Tú eliges el plan, el lugar y el ritmo.</p>
+        <div class="date-options" id="dateOptions">
+          <button data-plan="Un café tranquilo">☕ Un café</button>
+          <button data-plan="Una cena bonita">✦ Una cena</button>
+          <button data-plan="Una caminata y platicar">☁ Una caminata</button>
+        </div>
+        <div class="answer-actions">
+          <button class="yes" id="yesBtn">Sí, me gustaría</button>
+          <button class="no" id="noBtn">Prefiero que no</button>
+        </div>
+        <div class="answer" id="answer" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="photoModal"><button id="closeModal" aria-label="Cerrar">×</button><img id="modalImage" alt="Recuerdo ampliado"><p id="modalCaption"></p></dialog>
+  <footer><span>Tú + Yo</span><p>Hecho con amor, cuidado y respeto.</p><a href="#inicio">Volver arriba ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
